@@ -22,7 +22,7 @@
           </ul>
           <ul class="navbar-nav mb-2 mb-lg-0">
               <li class="nav-item">
-                  <a class="btn btn-secondary" href="#">Sign In</a>
+                  <a class="btn btn-secondary" href="testimonials">Sign In</a>
               </li>
           </ul>
       </div>
