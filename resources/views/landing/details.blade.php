@@ -21,7 +21,7 @@
             <div class="row align-items-center mb-30">
                 <div class="col-lg-6">
                     <h1 class="jumbo-header">
-                        Coral PIK Seven
+                        {{$slug}}
                     </h1>
                     <p class="paragraph">
                         Where dreams live begin without worried ipsum.
@@ -33,26 +33,26 @@
                         (28,309)
                     </h3>
                     <div class="rating">
-                        <img src="images/ic_star.svg" height="28" alt="">
-                        <img src="images/ic_star.svg" height="28" alt="">
-                        <img src="images/ic_star.svg" height="28" alt="">
-                        <img src="images/ic_star.svg" height="28" alt="">
-                        <img src="images/ic_star_inactive.svg" height="28" alt="">
+                        <img src="{{asset('images/ic_star.svg')}}" height="28" alt="">
+                        <img src="{{asset('images/ic_star.svg')}}" height="28" alt="">
+                        <img src="{{asset('images/ic_star.svg')}}" height="28" alt="">
+                        <img src="{{asset('images/ic_star.svg')}}" height="28" alt="">
+                        <img src="{{asset('images/ic_star_inactive.svg')}}" height="28" alt="">
                     </div>
                 </div>
             </div>
             <div class="row gallery">
                 <div class="col-lg-6 mb-30">
-                    <img src="images/hd1.png" class="img-fluid" alt="">
+                    <img src="{{asset('images/hd1.png')}}" class="img-fluid" alt="">
                 </div>
                 <div class="col-lg-6 mb-30">
-                    <img src="images/hd2.png" class="img-fluid" alt="">
+                    <img src="{{asset('images/hd2.png')}}" class="img-fluid" alt="">
                 </div>
                 <div class="col-lg-6 mb-30">
-                    <img src="images/hd3.png" class="img-fluid" alt="">
+                    <img src="{{asset('images/hd3.png')}}" class="img-fluid" alt="">
                 </div>
                 <div class="col-lg-6 mb-30">
-                    <img src="images/hd4.png" class="img-fluid" alt="">
+                    <img src="{{asset('images/hd4.png')}}" class="img-fluid" alt="">
                 </div>
             </div>
             <div class="row house-informations">
@@ -73,7 +73,7 @@
                         <div class="col-lg-10">
                             <div class="row">
                                 <div class="col-lg-6">
-                                    <img src="images/ic_wifi.svg" class="icon" alt="">
+                                    <img src="{{asset('images/ic_wifi.svg')}}" class="icon" alt="">
                                     <div class="info">
                                         <h3 class="small-header mb-0">
                                             Wifi 180GBs
@@ -84,7 +84,7 @@
                                     </div>
                                 </div>
                                 <div class="col-lg-6">
-                                    <img src="images/ic_card.svg" class="icon" alt="">
+                                    <img src="{{asset('images/ic_card.svg')}}" class="icon" alt="">
                                     <div class="info">
                                         <h3 class="small-header mb-0">
                                             Access Card
@@ -95,7 +95,7 @@
                                     </div>
                                 </div>
                                 <div class="col-lg-6">
-                                    <img src="images/ic_bell.svg" class="icon" alt="">
+                                    <img src="{{asset('images/ic_bell.svg')}}" class="icon" alt="">
                                     <div class="info">
                                         <h3 class="small-header mb-0">
                                             Receiptionist
@@ -106,7 +106,7 @@
                                     </div>
                                 </div>
                                 <div class="col-lg-6">
-                                    <img src="images/ic_park.svg" class="icon" alt="">
+                                    <img src="{{asset('images/ic_park.svg')}}" class="icon" alt="">
                                     <div class="info">
                                         <h3 class="small-header mb-0">
                                             City Park
